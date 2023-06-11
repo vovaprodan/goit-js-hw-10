@@ -38,5 +38,5 @@ function onChangeSelect() {
   divEl.innerHTML = '';
   const breedId = selectEl.value
   fetchCatByBreed(breedId)
-  
+  errorEl.classList.add('is-hedden')
 }
